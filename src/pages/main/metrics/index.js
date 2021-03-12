@@ -18,6 +18,8 @@ import {
 } from '../../../components/Metrics';
 import Widget from '../../../components/Widget';
 
+const { Footer } = Layout;
+
 const data = [
   { name: 'Page A', price: 200 },
   { name: 'Page B', price: 1200 },
@@ -31,7 +33,11 @@ const MetricsPage = () => (
   <Layout className="gx-app-layout">
     <Sidebar />
     <Layout>
-      <div style={{ margin: '20px' }}>
+      <div style={{  overflowY: 'scroll', overflowX: 'hidden'}}>
+        <div style = {{margin: '20px'}}>
+
+      
+      
         <Row>
           <Col lg={12} md={12} sm={12} xl={6} xs={24}>
             <IconWithTextCard icon="orders" title="2,380" iconColor="geekblue" subTitle="Orders this year" />
@@ -45,6 +51,8 @@ const MetricsPage = () => (
           <Col lg={12} md={12} sm={12} xl={6} xs={24}>
             <IconWithTextCard icon="queries" title="2,380" iconColor="geekblue" subTitle="Queries this year" />
           </Col>
+          </Row>
+          <Row>
           <Col lg={12} md={12} sm={12} xl={6} xs={24}>
             <GrowthCard
               {...{
@@ -156,6 +164,8 @@ const MetricsPage = () => (
               </ResponsiveContainer>
             </GrowthCard>
           </Col>
+          </Row>
+          <Row>
           <Col lg={8} md={8} sm={12} xl={4} xs={24}>
             <EcommerceStatus
               color="orange"
@@ -189,6 +199,8 @@ const MetricsPage = () => (
           <Col lg={12} md={12} sm={12} xl={6} xs={24}>
             <TotalEncomeCard />
           </Col>
+          </Row>
+          <Row>
           <Col lg={12} md={12} sm={12} xl={6} xs={24}>
             <TrafficRaiseCard />
           </Col>
@@ -196,7 +208,12 @@ const MetricsPage = () => (
             <QueriesCard />
           </Col>
         </Row>
+        </div>
+        <Footer>
+        <div className="gx-layout-footer-content">Copyright SOFIA Technologies © 2021</div>
+      </Footer>
       </div>
+     
     </Layout>
   </Layout>
 );

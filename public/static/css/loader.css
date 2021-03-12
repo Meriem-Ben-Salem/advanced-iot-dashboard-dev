@@ -31,10 +31,16 @@ body {
   -webkit-justify-content: center;
   -ms-justify-content: center;
   justify-content: center;
+  animation: spinner 2s linear infinite;
 }
 
 .loading {
-  width: 120px;
+  width: 60px;
 }
 
 /*# sourceMappingURL=loader.css.map */
+
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+ 

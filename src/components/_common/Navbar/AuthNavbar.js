@@ -1,6 +1,7 @@
 /*eslint-disable*/
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../../assets/images/sofia.png.png';
 
 export default function AuthNavbar() {
   return (
@@ -13,7 +14,7 @@ export default function AuthNavbar() {
               to="/"
             >
               <img
-                src="https://sofia-technologies.com/wp-content/uploads/2019/05/logo-sofiatech-01.png"
+                src={logo}
                 width="250px"
                 alt=""
               />

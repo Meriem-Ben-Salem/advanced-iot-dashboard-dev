@@ -2,15 +2,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 export default function SignInDisplay({ clickSubmit }) {
   return (
     <main>
       <section className="relative w-full h-full py-40 min-h-screen">
         <div
           className="absolute top-0 w-full h-full bg-gray-900 bg-no-repeat bg-full"
-          style={{
-            backgroundImage: `url(${'/static/img/logo.png'})`,
-          }}
+         
         />
         <div className="container mx-auto px-4 h-full">
           <div className="flex content-center items-center justify-center h-full">
