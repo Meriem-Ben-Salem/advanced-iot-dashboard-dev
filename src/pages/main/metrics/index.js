@@ -35,9 +35,6 @@ const MetricsPage = () => (
     <Layout>
       <div style={{  overflowY: 'scroll', overflowX: 'hidden'}}>
         <div style = {{margin: '20px'}}>
-
-      
-      
         <Row>
           <Col lg={12} md={12} sm={12} xl={6} xs={24}>
             <IconWithTextCard icon="orders" title="2,380" iconColor="geekblue" subTitle="Orders this year" />
@@ -210,7 +207,7 @@ const MetricsPage = () => (
         </Row>
         </div>
         <Footer>
-        <div className="gx-layout-footer-content">Copyright SOFIA Technologies © 2021</div>
+        <div className="gx-layout-footer-content">Copyright SOFIA Technologies  By Sofiatech  © 2021</div>
       </Footer>
       </div>
      

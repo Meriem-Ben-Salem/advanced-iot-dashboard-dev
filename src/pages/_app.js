@@ -13,6 +13,9 @@ import Signup from './authentification/signup';
 import PageNotFound from './pageNotFound';
 import Metrics from './main/metrics';
 import Widgets from './main/widgets';
+import MailApp from './In-built Apps/MailApp';
+
+
 
 const store = configureStore(/ provide initial state if any /);
 
@@ -21,13 +24,15 @@ const NextApp = () => (
     <ConnectedRouter history={history}>
       <BrowserRouter>
         <Switch>
+        <Route path="/main/widgets" exact component={Widgets} />
           <Route path="/main/metrics" exact component={Metrics} />
-          <Route path="/main/widgets" exact component={Widgets} />
+          <Route path="/In-built Apps/MailApp" exact component={MailApp} />
           <Route path="/sign-in" exact component={SignIn} />
           <Route path="/sign-up" exact component={Signup} />
           <Route path="/forgot" exact component={ForgotPassword} />
           <Route path="/" exact component={Dashboard} />
           <Route component={PageNotFound} />
+        
         </Switch>
       </BrowserRouter>
     </ConnectedRouter>

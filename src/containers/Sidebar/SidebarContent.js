@@ -41,23 +41,33 @@ const SidebarContent = ({ sidebarCollapsed, setSidebarCollapsed }) => {
             selectedKeys={[selectedKeys]}
             theme={themeType === THEME_TYPE_LITE ? 'lite' : 'dark'}
             mode="inline"
+
           >
+            
             <Menu.Item>
               <Link to="/">
                 <i className="icon icon-dasbhoard" />
                 <span>Dashboard</span>
               </Link>
-            </Menu.Item>
+              </Menu.Item>
             <Menu.Item>
               <Link to="/main/metrics">
                 <i className="icon icon-apps" />
                 <span>Metrics</span>
               </Link>
             </Menu.Item>
+
             <Menu.Item>
               <Link to="/main/widgets">
                 <i className="icon icon-widgets" />
                 <span>Widgets</span>
+              </Link>
+            </Menu.Item>
+
+          <Menu.Item>
+              <Link to="/In-built Apps/MailApp">
+                <i className="icon icon-widgets" />
+                <span>Mail App</span>
               </Link>
             </Menu.Item>
           </Menu>

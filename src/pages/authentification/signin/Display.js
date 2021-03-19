@@ -44,6 +44,7 @@ export default function SignInDisplay({ clickSubmit }) {
                       />
                       Google
                     </button>
+                  
                   </div>
                   <hr className="mt-6 border-b-1 border-gray-400" />
                 </div>
