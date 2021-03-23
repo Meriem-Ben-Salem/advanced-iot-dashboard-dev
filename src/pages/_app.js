@@ -13,7 +13,7 @@ import Signup from './authentification/signup';
 import PageNotFound from './pageNotFound';
 import Metrics from './main/metrics';
 import Widgets from './main/widgets';
-import MailApp from './In-built Apps/MailApp';
+import Set from './In-built Apps/set';
 
 
 
@@ -26,7 +26,7 @@ const NextApp = () => (
         <Switch>
         <Route path="/main/widgets" exact component={Widgets} />
           <Route path="/main/metrics" exact component={Metrics} />
-          <Route path="/In-built Apps/MailApp" exact component={MailApp} />
+          <Route path="/In-built Apps/set" exact component={Set} />
           <Route path="/sign-in" exact component={SignIn} />
           <Route path="/sign-up" exact component={Signup} />
           <Route path="/forgot" exact component={ForgotPassword} />

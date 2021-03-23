@@ -141,7 +141,7 @@ const MetricsPage = () => (
                     { name: 'Page D', traffic: 1700 },
                     { name: 'Page D', traffic: 600 },
                     { name: 'Page D', traffic: 1800 },
-                    { name: 'Page D', traffic: 600 },
+                    { name: 'Page D', traffic: 600 },   
                   ]}
                   margin={{
                     top: 5,

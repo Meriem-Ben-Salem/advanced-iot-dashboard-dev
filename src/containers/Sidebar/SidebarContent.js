@@ -65,9 +65,9 @@ const SidebarContent = ({ sidebarCollapsed, setSidebarCollapsed }) => {
             </Menu.Item>
 
           <Menu.Item>
-              <Link to="/In-built Apps/MailApp">
+              <Link to="/In-built Apps/set">
                 <i className="icon icon-widgets" />
-                <span>Mail App</span>
+                <span>Set</span>
               </Link>
             </Menu.Item>
           </Menu>

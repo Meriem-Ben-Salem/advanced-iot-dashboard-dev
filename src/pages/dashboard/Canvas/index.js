@@ -56,165 +56,218 @@ function Building() {
         e.stopPropagation();
         state.current = e.object.material.name;
       }}>
-        <group position={[0.02, 0.05, 0.06]}>
-          <mesh material={materials.Wood} geometry={nodes.Door001.geometry} position={[-0.96, 2.25, -1.63]} />
-          <mesh material={materials.Wood} geometry={nodes.Door002.geometry} position={[0.15, 2.14, -1.61]} />
-          <mesh material={materials.Wood} geometry={nodes.Door003.geometry} position={[-2.09, 2.25, -2.95]} />
-          <group position={[3.85, 2.25, -1.85]}>
-            <mesh material={materials.Wood} geometry={nodes.Door005_1.geometry} />
-            <mesh material={materials.Glass} geometry={nodes.Door005_2.geometry} />
-          </group>
-          <mesh material={materials.Wood} geometry={nodes.Door016.geometry} position={[0.51, 2.25, 3.39]} />
-          <mesh material={materials.Wood} geometry={nodes.DoorFrame.geometry} position={[0.98, 1.2, 3.46]} />
-          <mesh material={materials.Wood} geometry={nodes.DoorFrame001.geometry} position={[-1.35, 1.2, -1.61]} />
-          <mesh material={materials.Wood} geometry={nodes.DoorFrame002.geometry} position={[-0.22, 1.2, -1.61]} />
-          <mesh material={materials.Wood} geometry={nodes.DoorFrame005.geometry} position={[3.87, 1.2, -2.25]} />
-          <mesh
-            material={materials.Handle_material}
-            geometry={nodes.Handle_Back001.geometry}
-            position={[-1.48, 2.25, -2.14]}
-          />
-          <mesh
-            material={materials.Handle_material}
-            geometry={nodes.Handle_Back003.geometry}
-            position={[-1.69, 2.25, -3.36]}
-          />
-          <mesh
-            material={materials.Handle_material}
-            geometry={nodes.Handle_Back005.geometry}
-            position={[3.86, 2.25, -2.59]}
-          />
-          <mesh
-            material={materials.Handle_material}
-            geometry={nodes.Handle_Back016.geometry}
-            position={[1.39, 2.25, 3.39]}
-          />
-          <mesh
-            material={materials.Handle_material}
-            geometry={nodes.Handle_Front001.geometry}
-            position={[-1.49, 2.25, -2.14]}
-          />
-          <mesh
-            material={materials.Handle_material}
-            geometry={nodes.Handle_Front002.geometry}
-            position={[-0.34, 2.22, -2.15]}
-            rotation={[-2.56, 0.84, 2.66]}
-          />
-          <mesh
-            material={materials.Handle_material}
-            geometry={nodes.Handle_Front003.geometry}
-            position={[-1.7, 2.25, -3.37]}
-          />
-          <mesh
-            material={materials.Handle_material}
-            geometry={nodes.Handle_Front005.geometry}
-            position={[3.86, 2.25, -2.59]}
-          />
-          <mesh
-            material={materials.Handle_material}
-            geometry={nodes.Handle_Front016.geometry}
-            position={[1.39, 2.25, 3.49]}
-          />
-          <group position={[4.24, 1.2, 4.62]}>
-            <mesh material={materials.PlainRedBricks_1K} geometry={nodes.Plane018.geometry} />
-            <mesh material={materials.Concrete_obruby} geometry={nodes.Plane018_1.geometry} />
-            <mesh material={materials.Wood} geometry={nodes.Plane018_2.geometry} />
-          </group>
-          <group position={[4.16, 1.2, -1.96]}>
-            <mesh material={materials.PlainRedBricks_1K} geometry={nodes.Plane019.geometry} />
-            <mesh material={materials.Concrete_obruby} geometry={nodes.Plane019_1.geometry} />
-            <mesh material={materials.Wood} geometry={nodes.Plane019_2.geometry} />
-          </group>
-          <group position={[3.78, 2.7, 2.02]}>
-            <mesh material={materials['stucco yellow outdoor']} geometry={nodes.Cube002.geometry} />
-            <mesh material={materials.PlainRedBricks_1K} geometry={nodes.Cube002_1.geometry} />
-            <mesh material={materials['stucco indoor']} geometry={nodes.Cube002_2.geometry} />
-            <mesh material={materials['stucco dark']} geometry={nodes.Cube002_3.geometry} />
-          </group>
-          <group position={[-2.32, 1.68, 5.39]}>
-            <mesh material={materials.Wood} geometry={nodes.Window001_1.geometry} />
-            <mesh material={materials.Glass} geometry={nodes.Window001_2.geometry} />
-            <mesh material={materials.pozink} geometry={nodes.Window001_3.geometry} />
-          </group>
-          <group position={[-3.68, 1.68, 5.13]}>
-            <mesh material={materials.Wood} geometry={nodes.Window002_1.geometry} />
-            <mesh material={materials.Wood} geometry={nodes.Window002_2.geometry} />
-            <mesh material={materials.Glass} geometry={nodes.Window002_3.geometry} />
-            <mesh material={materials.pozink} geometry={nodes.Window002_4.geometry} />
-          </group>
-          <group position={[-0.95, 1.68, 5.13]}>
-            <mesh material={materials.Wood} geometry={nodes.Window003_1.geometry} />
-            <mesh material={materials.Glass} geometry={nodes.Window003_2.geometry} />
-            <mesh material={materials.pozink} geometry={nodes.Window003_3.geometry} />
-          </group>
-          <group position={[-5.03, 2.13, -3.38]}>
-            <mesh material={materials.Wood} geometry={nodes.Window004.geometry} />
-            <mesh material={materials.Wood} geometry={nodes.Window004_1.geometry} />
-            <mesh material={materials.Glass} geometry={nodes.Window004_2.geometry} />
-            <mesh material={materials.pozink} geometry={nodes.Window004_3.geometry} />
-          </group>
-          <group position={[-2.58, 2.13, -4.96]}>
-            <mesh material={materials.Wood} geometry={nodes.Window008_1.geometry} />
-            <mesh material={materials.Wood} geometry={nodes.Window008_2.geometry} />
-            <mesh material={materials.Glass} geometry={nodes.Window008_3.geometry} />
-            <mesh material={materials.pozink} geometry={nodes.Window008_4.geometry} />
-          </group>
-          <group position={[-1.4, 2.43, -4.96]}>
-            <mesh material={materials.Wood} geometry={nodes.Window009_1.geometry} />
-            <mesh material={materials.Wood} geometry={nodes.Window009_2.geometry} />
-            <mesh material={materials.Glass} geometry={nodes.Window009_3.geometry} />
-            <mesh material={materials.pozink} geometry={nodes.Window009_4.geometry} />
-          </group>
-          <group position={[1.47, 2.43, -4.98]}>
-            <mesh material={materials.Wood} geometry={nodes.Window010_1.geometry} />
-            <mesh material={materials.Wood} geometry={nodes.Window010_2.geometry} />
-            <mesh material={materials.Glass} geometry={nodes.Window010_3.geometry} />
-            <mesh material={materials.pozink} geometry={nodes.Window010_4.geometry} />
-          </group>
-          <group position={[3.83, 2.13, -0.32]}>
-            <mesh material={materials.Wood} geometry={nodes.Window012.geometry} />
-            <mesh material={materials.Wood} geometry={nodes.Window012_1.geometry} />
-            <mesh material={materials.Glass} geometry={nodes.Window012_2.geometry} />
-            <mesh material={materials.pozink} geometry={nodes.Window012_3.geometry} />
-          </group>
-          <group position={[2.43, 2.13, 3.56]}>
-            <mesh material={materials.Wood} geometry={nodes.Window013.geometry} />
-            <mesh material={materials.Glass} geometry={nodes.Window013_1.geometry} />
-            <mesh material={materials.pozink} geometry={nodes.Window013_2.geometry} />
-          </group>
-          <group position={[-5.03, 2.13, 2.69]}>
-            <mesh material={materials.Wood} geometry={nodes.Window026_1.geometry} />
-            <mesh material={materials.Wood} geometry={nodes.Window026_2.geometry} />
-            <mesh material={materials.Glass} geometry={nodes.Window026_3.geometry} />
-            <mesh material={materials.pozink} geometry={nodes.Window026_4.geometry} />
-          </group>
-          <group position={[-5, 2.43, -0.57]}>
-            <mesh material={materials.Wood} geometry={nodes.Window036.geometry} />
-            <mesh material={materials.Glass} geometry={nodes.Window036_1.geometry} />
-            <mesh material={materials.pozink} geometry={nodes.Window036_2.geometry} />
-          </group>
-        </group>
-        <mesh
-          material={nodes.Cube.material}
-          geometry={nodes.Cube.geometry}
-          position={[-0.9, 0.11, 0.06]}
-          rotation={[0.01, 0, 1.59]}
-          scale={[-0.33, 6.64, 8.13]}
-        />
+         
+        
+      <mesh
+        material={nodes.Cylinder.material}
+        geometry={nodes.Cylinder.geometry}
+        position={[0.41, 3.18, -4.65]}
+        rotation={[Math.PI / 2, 0, 0]}
+        scale={[0.34, 0.24, 0.52]}
+      />
+      <group position={[-5, 2.43, -0.57]}>
+        <mesh material={materials['Wood.001']} geometry={nodes.Window032.geometry} />
+        <mesh material={materials['Glass.001']} geometry={nodes.Window032_1.geometry} />
+        <mesh material={materials['pozink.001']} geometry={nodes.Window032_2.geometry} />
       </group>
+      <group position={[-5.03, 2.13, 2.69]}>
+        <mesh material={materials['Wood.001']} geometry={nodes.Window031.geometry} />
+        <mesh material={materials['Wood.001']} geometry={nodes.Window031_1.geometry} />
+        <mesh material={materials['Glass.001']} geometry={nodes.Window031_2.geometry} />
+        <mesh material={materials['pozink.001']} geometry={nodes.Window031_3.geometry} />
+      </group>
+      <group position={[2.43, 2.13, 3.56]}>
+        <mesh material={materials['Wood.001']} geometry={nodes.Window018.geometry} />
+        <mesh material={materials['Glass.001']} geometry={nodes.Window018_1.geometry} />
+        <mesh material={materials['pozink.001']} geometry={nodes.Window018_2.geometry} />
+      </group>
+      <group position={[3.83, 2.13, -0.32]}>
+        <mesh material={materials['Wood.001']} geometry={nodes.Window017.geometry} />
+        <mesh material={materials['Wood.001']} geometry={nodes.Window017_1.geometry} />
+        <mesh material={materials['Glass.001']} geometry={nodes.Window017_2.geometry} />
+        <mesh material={materials['pozink.001']} geometry={nodes.Window017_3.geometry} />
+      </group>
+      <group position={[1.47, 2.43, -4.98]}>
+        <mesh material={materials['Wood.001']} geometry={nodes.Window016.geometry} />
+        <mesh material={materials['Wood.001']} geometry={nodes.Window016_1.geometry} />
+        <mesh material={materials['Glass.001']} geometry={nodes.Window016_2.geometry} />
+        <mesh material={materials['pozink.001']} geometry={nodes.Window016_3.geometry} />
+      </group>
+      <group position={[-1.4, 2.43, -4.96]}>
+        <mesh material={materials['Wood.001']} geometry={nodes.Window015.geometry} />
+        <mesh material={materials['Wood.001']} geometry={nodes.Window015_1.geometry} />
+        <mesh material={materials['Glass.001']} geometry={nodes.Window015_2.geometry} />
+        <mesh material={materials['pozink.001']} geometry={nodes.Window015_3.geometry} />
+      </group>
+      <group position={[-2.58, 2.13, -4.96]}>
+        <mesh material={materials['Wood.001']} geometry={nodes.Window014.geometry} />
+        <mesh material={materials['Wood.001']} geometry={nodes.Window014_1.geometry} />
+        <mesh material={materials['Glass.001']} geometry={nodes.Window014_2.geometry} />
+        <mesh material={materials['pozink.001']} geometry={nodes.Window014_3.geometry} />
+      </group>
+      <group position={[-5.03, 2.13, -3.38]}>
+        <mesh material={materials['Wood.001']} geometry={nodes.Window011.geometry} />
+        <mesh material={materials['Wood.001']} geometry={nodes.Window011_1.geometry} />
+        <mesh material={materials['Glass.001']} geometry={nodes.Window011_2.geometry} />
+        <mesh material={materials['pozink.001']} geometry={nodes.Window011_3.geometry} />
+      </group>
+      <group position={[-0.95, 1.68, 5.13]}>
+        <mesh material={materials['Wood.001']} geometry={nodes.Window007_1.geometry} />
+        <mesh material={materials['Glass.001']} geometry={nodes.Window007_2.geometry} />
+        <mesh material={materials['pozink.001']} geometry={nodes.Window007_3.geometry} />
+      </group>
+      <group position={[-3.68, 1.68, 5.13]}>
+        <mesh material={materials['Wood.001']} geometry={nodes.Window006_1.geometry} />
+        <mesh material={materials['Wood.001']} geometry={nodes.Window006_2.geometry} />
+        <mesh material={materials['Glass.001']} geometry={nodes.Window006_3.geometry} />
+        <mesh material={materials['pozink.001']} geometry={nodes.Window006_4.geometry} />
+      </group>
+      <group position={[-2.32, 1.68, 5.39]}>
+        <mesh material={materials['Wood.001']} geometry={nodes.Window005.geometry} />
+        <mesh material={materials['Glass.001']} geometry={nodes.Window005_1.geometry} />
+        <mesh material={materials['pozink.001']} geometry={nodes.Window005_2.geometry} />
+      </group>
+      <group position={[4.09, 2.7, 2.02]}>
+        <mesh material={materials['stucco yellow outdoor.001']} geometry={nodes.Cube.geometry} />
+        <mesh material={materials['PlainRedBricks_1K.001']} geometry={nodes.Cube_1.geometry} />
+        <mesh material={materials['stucco indoor.001']} geometry={nodes.Cube_2.geometry} />
+        <mesh material={materials['stucco dark.001']} geometry={nodes.Cube_3.geometry} />
+      </group>
+      <group position={[1.16, 0, 6.65]}>
+        <mesh material={materials['Wood.001']} geometry={nodes.Stairs006.geometry} />
+        <mesh material={materials['Concrete_obruby.001']} geometry={nodes.Stairs006_1.geometry} />
+      </group>
+      <group position={[4.16, 1.2, -1.96]}>
+        <mesh material={materials['PlainRedBricks_1K.001']} geometry={nodes.Plane006.geometry} />
+        <mesh material={materials['Concrete_obruby.001']} geometry={nodes.Plane006_1.geometry} />
+        <mesh material={materials['Wood.001']} geometry={nodes.Plane006_2.geometry} />
+      </group>
+      <group position={[4.24, 1.2, 4.62]}>
+        <mesh material={materials['PlainRedBricks_1K.001']} geometry={nodes.Plane005.geometry} />
+        <mesh material={materials['Concrete_obruby.001']} geometry={nodes.Plane005_1.geometry} />
+        <mesh material={materials['Wood.001']} geometry={nodes.Plane005_2.geometry} />
+      </group>
+      <mesh
+        material={materials.MarbleFloorTiles_1K}
+        geometry={nodes.Plane004.geometry}
+        position={[-4.11, 1.2, -0.97]}
+      />
+      <mesh
+        material={materials.MarbleFloorTiles_1K}
+        geometry={nodes.Plane003.geometry}
+        position={[-1.41, 1.2, -3.97]}
+      />
+      <mesh material={materials.Parquetlight_1K} geometry={nodes.Plane002.geometry} position={[-3.04, 1.2, -3.25]} />
+      <mesh
+        material={materials['Concrete_obruby.001']}
+        geometry={nodes.Plane001.geometry}
+        position={[0.33, 1.2, -3.8]}
+      />
+      <mesh material={materials.Parquetlight_1K} geometry={nodes.Plane.geometry} position={[-3.87, 1.2, 1.66]} />
+      <mesh
+        material={materials['Handle_material.001']}
+        geometry={nodes.Handle_Front005.geometry}
+        position={[3.86, 2.25, -2.59]}
+      />
+      <mesh
+        material={materials['Handle_material.001']}
+        geometry={nodes.Handle_Front004.geometry}
+        position={[-2.98, 2.25, -1.1]}
+      />
+      <mesh
+        material={materials['Handle_material.001']}
+        geometry={nodes.Handle_Front003.geometry}
+        position={[-1.7, 2.25, -3.37]}
+      />
+      <mesh
+        material={materials['Handle_material.001']}
+        geometry={nodes.Handle_Front002.geometry}
+        position={[-0.09, 2.25, -2.14]}
+      />
+      <mesh
+        material={materials['Handle_material.001']}
+        geometry={nodes.Handle_Front001.geometry}
+        position={[-1.49, 2.25, -2.14]}
+      />
+      <mesh
+        material={materials['Handle_material.001']}
+        geometry={nodes.Handle_Back005.geometry}
+        position={[3.86, 2.25, -2.59]}
+      />
+      <mesh
+        material={materials['Handle_material.001']}
+        geometry={nodes.Handle_Back004.geometry}
+        position={[-2.99, 2.25, -1.11]}
+      />
+      <mesh
+        material={materials['Handle_material.001']}
+        geometry={nodes.Handle_Back003.geometry}
+        position={[-1.69, 2.25, -3.36]}
+      />
+      <mesh
+        material={materials['Handle_material.001']}
+        geometry={nodes.Handle_Back002.geometry}
+        position={[-0.1, 2.25, -2.14]}
+      />
+      <mesh
+        material={materials['Handle_material.001']}
+        geometry={nodes.Handle_Back001.geometry}
+        position={[-1.48, 2.25, -2.14]}
+      />
+      <mesh material={materials['Wood.001']} geometry={nodes.DoorFrame005.geometry} position={[3.87, 1.2, -2.25]} />
+      <mesh material={materials['Wood.001']} geometry={nodes.DoorFrame004.geometry} position={[-2.58, 1.2, -1.2]} />
+      <mesh material={materials['Wood.001']} geometry={nodes.DoorFrame003.geometry} position={[-2.1, 1.2, -3.28]} />
+      <mesh material={materials['Wood.001']} geometry={nodes.DoorFrame002.geometry} position={[-0.22, 1.2, -1.61]} />
+      <mesh material={materials['Wood.001']} geometry={nodes.DoorFrame001.geometry} position={[-1.35, 1.2, -1.61]} />
+      <group position={[3.85, 2.25, -1.85]}>
+        <mesh material={materials['Wood.001']} geometry={nodes.Door009.geometry} />
+        <mesh material={materials['Glass.001']} geometry={nodes.Door009_1.geometry} />
+      </group>
+      <mesh material={materials['Wood.001']} geometry={nodes.Door004.geometry} position={[-2.59, 2.25, -1.52]} />
+      <mesh material={materials['Wood.001']} geometry={nodes.Door003.geometry} position={[-2.09, 2.25, -2.95]} />
+      <mesh material={materials['Wood.001']} geometry={nodes.Door002.geometry} position={[-0.62, 2.25, -1.63]} />
+      <mesh material={materials['Wood.001']} geometry={nodes.Door001.geometry} position={[-0.96, 2.25, -1.63]} />
+      <mesh
+        material={materials['Handle_material.001']}
+        geometry={nodes.Cube033.geometry}
+        position={[4.36, 1.35, -3.37]}
+      />
+      <mesh material={materials['Wood.001']} geometry={nodes.Cube012.geometry} position={[1.96, 1.32, 4.9]} />
+      <mesh
+        material={materials['Concrete_obruby.001']}
+        geometry={nodes.Cube005.geometry}
+        position={[0.41, 0.41, 5.68]}
+      />
+      <mesh
+        material={materials['Concrete_obruby.001']}
+        geometry={nodes.Cube004.geometry}
+        position={[1.91, 0.41, 5.68]}
+      />
+      <mesh material={materials['stucco indoor.001']} geometry={nodes.Cube001.geometry} position={[3.78, 2.7, 2.02]} />
+      <group position={[-4.58, 3.78, 1.48]} rotation={[0, 0, 1.65]} scale={[1.07, 0.18, 0.89]}>
+        <mesh material={materials['Iron Touched']} geometry={nodes.Sphere.geometry} />
+        <mesh material={materials['plastic touched']} geometry={nodes.Sphere_1.geometry} />
+      </group>
+      <group position={[-4.57, 3.52, -1.25]} rotation={[0, 0, 1.65]} scale={[1.07, 0.18, 0.89]}>
+        <mesh material={materials['Iron Touched']} geometry={nodes.Sphere003.geometry} />
+        <mesh material={materials['plastic touched']} geometry={nodes.Sphere003_1.geometry} />
+      </group>
+    </group>
   );
 }
 
 function Picker() {
   const snap = useProxy(state);
+  console.log('heeey', snap.current);
   return (
-    <div style={{ display: snap.current ? 'block' : 'none' }}>
+    <div style={{ display: snap.current  ? 'block' : 'none' }}>
+        {snap.current === 'Iron Touched'? (
         <div className="picker">
           <Widget title={snap.current} styleName="gx-card-full">
             <div className="gx-actchart gx-px-3 gx-pt-3 gx-pb-2 gx-d-flex gx-flex-row">
               <h2 className="gx-mb-0 gx-mr-2 gx-fs-lg">
-                84%
-                {' '}
+               38%
+                {''}
                 <i className="icon icon-menu-up gx-fs-sm" />
               </h2>
               <p className="gx-mb-0 gx-text-grey gx-fs-sm">
@@ -250,6 +303,7 @@ function Picker() {
             </ResponsiveContainer>
           </Widget>
         </div>
+            ) : null}
     </div>
   );
 }
