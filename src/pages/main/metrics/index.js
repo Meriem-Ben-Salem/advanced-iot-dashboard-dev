@@ -16,7 +16,7 @@ import {
   ChartCard,
   GrothChartWidget,
 } from '../../../components/Metrics';
-import Widget from '../../../components/Widget';
+
 
 const { Footer } = Layout;
 
@@ -141,7 +141,8 @@ const MetricsPage = () => (
                     { name: 'Page D', traffic: 1700 },
                     { name: 'Page D', traffic: 600 },
                     { name: 'Page D', traffic: 1800 },
-                    { name: 'Page D', traffic: 600 },   
+                    { name: 'Page D', traffic: 600 },
+                
                   ]}
                   margin={{
                     top: 5,

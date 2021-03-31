@@ -1,7 +1,6 @@
 import React from 'react';
 import { Menu } from 'antd';
 import { Link } from 'react-router-dom';
-
 import CustomScrollbars from 'util/CustomScrollbars';
 import { useSelector } from 'react-redux';
 import SidebarLogo from './SidebarLogo';
@@ -13,9 +12,12 @@ import {
   THEME_TYPE_LITE,
 } from '../../util/constants/ThemeSetting';
 
+
+
 const SidebarContent = ({ sidebarCollapsed, setSidebarCollapsed }) => {
   const { navStyle, themeType } = useSelector(({ settings }) => settings);
   const { pathname } = useSelector(({ common }) => common);
+
 
   const getNoHeaderClass = (navStyle) => {
     if (navStyle === NAV_STYLE_NO_HEADER_MINI_SIDEBAR || navStyle === NAV_STYLE_NO_HEADER_EXPANDED_SIDEBAR) {
@@ -65,11 +67,12 @@ const SidebarContent = ({ sidebarCollapsed, setSidebarCollapsed }) => {
             </Menu.Item>
 
           <Menu.Item>
-              <Link to="/In-built Apps/set">
+              <Link to="/main/Listing" >
                 <i className="icon icon-widgets" />
-                <span>Set</span>
+                <span>Metrics</span>
               </Link>
             </Menu.Item>
+           
           </Menu>
         </CustomScrollbars>
       </div>
@@ -78,4 +81,6 @@ const SidebarContent = ({ sidebarCollapsed, setSidebarCollapsed }) => {
 };
 
 SidebarContent.propTypes = {};
-export default SidebarContent;
+
+export default (SidebarContent);
+

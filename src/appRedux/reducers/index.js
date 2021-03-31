@@ -1,12 +1,14 @@
-import {combineReducers} from "redux";
+import { combineReducers } from "redux";
+import { connectRouter } from 'connected-react-router';
 import Settings from "./Settings";
-import Auth from "./Auth";
 import Common from "./Common";
-import {connectRouter} from 'connected-react-router'
+
+import Temperature from './Temperature';
 
 export default (history) => combineReducers({
   router: connectRouter(history),
   settings: Settings,
-  auth: Auth,
   common: Common,
+  temperature: Temperature
+  
 });

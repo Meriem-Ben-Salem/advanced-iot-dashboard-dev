@@ -1,7 +1,6 @@
 /* eslint-disable import/extensions */
 import React from 'react';
 import ReactDOM from 'react-dom';
-
 import App from './pages/_app.js';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
